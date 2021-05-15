@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap');
+
+        header {
+            width: 100vw;
+            height: 100px;
+            position: sticky;
+            background-color: whitesmoke;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style: none;
+            text-transform: capitalize;
+            padding: 26px 0px 0px 0px;
+            font-size: x-large;
+        }
+
+        #logo {
+            font-weight: 900;
+            font-family: 'Farro', sans-serif;
+            font-size: xx-large;
+        }
+
+        ul li a {
+            color: black;
+        }
+
+        footer {
+            width: 100vw;
+            background-color: black;
+            position: relative;
+            top: 185px;
+            height: 179px;
+
+        }
+
+        .footer {
+            color: white;
+            position: relative;
+            left: 221px;
+            top: 63px;
+
+        }
+
+        #footer {
+            top: 6px;
+            position: relative;
+            color: white;
+            left: 601px;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: xx-large;
+        }
+    </style>
+    {% block css %}
+
+    {% endblock css %}
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!--fontasowme link-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li> <span id="logo">
+                        <a href=""> file_sharing </a>
+                    </span>
+                </li>
+                <li><a href="">home</a></li>
+                <li>
+                    <a href="">why use file_sharing</a>
+                </li>
+                <li>
+                    <a href=""> plans</a>
+                </li>
+                <li>
+                    <a href="">about_us</a>
+                </li>
+                <li>
+                    <a href="">
+                        support
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block body %}
+
+    {% endblock body %}
+
+
+
+
+
+
+
+
+
+    <footer>
+        <span id="footer">contact_us</span>
+        <div class="row footer">
+
+            <div class="col-md-3">
+                <i class="fab fa-whatsapp">96********077</i>
+            </div>
+            <div class="col-md-3">
+                <i class="far fa-envelope">
+                    vishal@gmail.com
+                </i>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-instagram">vishal3956</i>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
